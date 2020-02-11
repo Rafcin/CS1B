@@ -6,17 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/Users/rafaelszuminski/Desktop/CS1B/HW02/BMI.cpp
+/home/raf/Desktop/CS1B/HW02/BMI.h
+
+/home/raf/Desktop/CS1B/HW02/User.cpp
+User.h
+/home/raf/Desktop/CS1B/HW02/User.h
+
+/home/raf/Desktop/CS1B/HW02/User.h
+system_error
+-
+
+/home/raf/Desktop/CS1B/HW02/main.cpp
 iostream
 -
 BMI.h
-/Users/rafaelszuminski/Desktop/CS1B/HW02/BMI.h
-
-/Users/rafaelszuminski/Desktop/CS1B/HW02/BMI.h
-
-/Users/rafaelszuminski/Desktop/CS1B/HW02/main.cpp
-iostream
+/home/raf/Desktop/CS1B/HW02/BMI.h
+User.h
+/home/raf/Desktop/CS1B/HW02/User.h
+fstream
 -
-BMI.h
-/Users/rafaelszuminski/Desktop/CS1B/HW02/BMI.h
+string
+-
 

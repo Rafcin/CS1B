@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rafaelszuminski/Desktop/CS1B/HW02
+CMAKE_SOURCE_DIR = /home/raf/Desktop/CS1B/HW02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug
+CMAKE_BINARY_DIR = /home/raf/Desktop/CS1B/HW02/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles /Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raf/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles /home/raf/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raf/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ BMI.cpp.s:
 	$(MAKE) -f CMakeFiles/HW02.dir/build.make CMakeFiles/HW02.dir/BMI.cpp.s
 .PHONY : BMI.cpp.s
 
+User.o: User.cpp.o
+
+.PHONY : User.o
+
+# target to build an object file
+User.cpp.o:
+	$(MAKE) -f CMakeFiles/HW02.dir/build.make CMakeFiles/HW02.dir/User.cpp.o
+.PHONY : User.cpp.o
+
+User.i: User.cpp.i
+
+.PHONY : User.i
+
+# target to preprocess a source file
+User.cpp.i:
+	$(MAKE) -f CMakeFiles/HW02.dir/build.make CMakeFiles/HW02.dir/User.cpp.i
+.PHONY : User.cpp.i
+
+User.s: User.cpp.s
+
+.PHONY : User.s
+
+# target to generate assembly for a file
+User.cpp.s:
+	$(MAKE) -f CMakeFiles/HW02.dir/build.make CMakeFiles/HW02.dir/User.cpp.s
+.PHONY : User.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -184,11 +211,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... HW02"
+	@echo "... edit_cache"
 	@echo "... BMI.o"
 	@echo "... BMI.i"
 	@echo "... BMI.s"
+	@echo "... User.o"
+	@echo "... User.i"
+	@echo "... User.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

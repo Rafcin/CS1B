@@ -1,0 +1,6 @@
+float male_calc(float init_b_weight, float init_waist_m);
+float female_calc(float init_b_weight, float init_wrist_m, float init_waist_m, float init_hip_m, float init_forearm_m );
+M,197.9,40.2
+F,200.2,5.3,,40.2,15.3,3.2
+M,297.9,30.2
+F,1670.2,5.3,,30.2,15.3,3.2

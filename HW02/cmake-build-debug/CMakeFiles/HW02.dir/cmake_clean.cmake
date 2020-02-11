@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HW02.dir/BMI.cpp.o"
+  "CMakeFiles/HW02.dir/User.cpp.o"
   "CMakeFiles/HW02.dir/main.cpp.o"
   "HW02"
   "HW02.pdb"

@@ -4,6 +4,10 @@
 CMakeFiles/HW02.dir/BMI.cpp.o: ../BMI.cpp
 CMakeFiles/HW02.dir/BMI.cpp.o: ../BMI.h
 
+CMakeFiles/HW02.dir/User.cpp.o: ../User.cpp
+CMakeFiles/HW02.dir/User.cpp.o: ../User.h
+
 CMakeFiles/HW02.dir/main.cpp.o: ../BMI.h
+CMakeFiles/HW02.dir/main.cpp.o: ../User.h
 CMakeFiles/HW02.dir/main.cpp.o: ../main.cpp
 

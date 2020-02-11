@@ -3,4 +3,4 @@ project(HW02)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(HW02 main.cpp BMI.cpp BMI.h)
+add_executable(HW02 main.cpp BMI.cpp BMI.h User.cpp User.h)

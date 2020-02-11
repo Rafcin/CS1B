@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rafaelszuminski/Desktop/CS1B/HW01/Phoneletters/PL.h
+string
+-
+
+/Users/rafaelszuminski/Desktop/CS1B/HW01/main.cpp
+iostream
+-
+Phoneletters/PL.h
+/Users/rafaelszuminski/Desktop/CS1B/HW01/Phoneletters/PL.h
+cstring
+-
+vector
+-
+

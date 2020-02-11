@@ -1,0 +1,36 @@
+Script started on Thu Jan 30 17:53:42 2020
+[?1034hbash-3.2$ date
+Thu Jan 30 17:53:46 PST 2020
+bash-3.2$ ls -l
+total 40
+-rw-r--r--  1 rafaelszuminski  staff  1584 Jan 23 19:55 PL.cpp
+-rw-r--r--  1 rafaelszuminski  staff   260 Jan 23 19:52 PL.h
+-rw-r--r--  1 rafaelszuminski  staff    43 Jan 30 17:53 hw01.scr
+-rw-r--r--@ 1 rafaelszuminski  staff  1016 Jan 30 17:53 main.cpp
+-rw-r--r--@ 1 rafaelszuminski  staff   443 Jan 30 17:43 makefile
+bash-3.2$ make all
+g++ -Wall -g -c PL.cpp
+[1mPL.cpp:52:16: [0m[0;1;35mwarning: [0m[1mrange-based for loop is a C++11 extension [-Wc++11-extensions][0m
+    for(char x : value){
+[0;1;32m               ^
+[0m1 warning generated.
+g++ -Wall -g -c main.cpp
+g++ -o test PL.o main.o
+bash-3.2$ ls -l
+total 832
+-rw-r--r--  1 rafaelszuminski  staff    1584 Jan 23 19:55 PL.cpp
+-rw-r--r--  1 rafaelszuminski  staff     260 Jan 23 19:52 PL.h
+-rw-r--r--  1 rafaelszuminski  staff  135476 Jan 30 17:53 PL.o
+-rw-r--r--  1 rafaelszuminski  staff      43 Jan 30 17:53 hw01.scr
+-rw-r--r--@ 1 rafaelszuminski  staff    1016 Jan 30 17:53 main.cpp
+-rw-r--r--  1 rafaelszuminski  staff  167612 Jan 30 17:53 main.o
+-rw-r--r--@ 1 rafaelszuminski  staff     443 Jan 30 17:43 makefile
+-rwxr-xr-x  1 rafaelszuminski  staff   96108 Jan 30 17:53 test
+bash-3.2$ ./test 
+Enter Letter Based Phone Number
+call docb
+225-5362
+bash-3.2$ exit
+exit
+
+Script done on Thu Jan 30 17:54:15 2020

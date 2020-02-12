@@ -84,7 +84,7 @@ int main() {
     if(userDataFile.is_open()){
         int index = 0;
         for(User u : userARR){
-            userDataFile << "User: " << index+1 << " Gender: " << u.getGender() << " Info: " <<u.getResults() <<std::endl;
+            userDataFile << "User: " << index+1 << " Gender: " << u.getGender() << " Result: " <<u.getResults() <<std::endl;
             index++;
         }
     }

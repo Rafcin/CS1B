@@ -1,0 +1,51 @@
+Script started on Tue Feb 11 17:44:01 2020
+[?1034hbash-3.2$ date
+Tue Feb 11 17:44:04 PST 2020
+bash-3.2$ ls -l
+total 56
+-rw-r--r--  1 rafaelszuminski  staff  1094 Feb 11 17:34 BMI.cpp
+-rw-r--r--  1 rafaelszuminski  staff   290 Feb  6 20:30 BMI.h
+-rw-r--r--  1 rafaelszuminski  staff  1170 Feb 11 17:33 User.cpp
+-rw-r--r--  1 rafaelszuminski  staff   956 Feb 11 17:33 User.h
+-rw-r--r--  1 rafaelszuminski  staff    43 Feb 11 17:44 hw02.scr
+-rw-r--r--@ 1 rafaelszuminski  staff  3548 Feb 11 17:42 main.cpp
+-rw-r--r--@ 1 rafaelszuminski  staff   443 Jan 30 17:43 makefile
+bash-3.2$ make all
+g++ -Wall -g -c BMI.cpp
+[1mBMI.cpp:24:1: [0m[0;1;35mwarning: [0m[1mcontrol reaches end of non-void function [-Wreturn-type][0m
+}
+[0;1;32m^
+[0m1 warning generated.
+g++ -Wall -g -c User.cpp
+g++ -Wall -g -c main.cpp
+[1mmain.cpp:30:16: [0m[0;1;35mwarning: [0m[1mrange-based for loop is a C++11 extension [-Wc++11-extensions][0m
+    for(User u : userARR){
+[0;1;32m               ^
+[0m[1mmain.cpp:86:20: [0m[0;1;35mwarning: [0m[1mrange-based for loop is a C++11 extension [-Wc++11-extensions][0m
+        for(User u : userARR){
+[0;1;32m                   ^
+[0m2 warnings generated.
+g++ -o test BMI.o User.o main.o
+bash-3.2$ ./test
+-----------------------------
+Bugs or issues? Contact Raf @
+Rafcin.s@mail.com
+-----------------------------
+Please Enter # of users you would like to enter...
+1
+[Selected 1 Users]
+Enter a gender (M or F) for user 1
+M
+Gender is: M
+User 1 Is Male
+Please Enter the user weight...
+319.2
+Please Enter the user waist size...
+40.2
+[Log]272.964
+Finished User 1
+File Saved (Check debug if you don't see it in the main path)
+bash-3.2$ exit
+exit
+
+Script done on Tue Feb 11 17:44:39 2020

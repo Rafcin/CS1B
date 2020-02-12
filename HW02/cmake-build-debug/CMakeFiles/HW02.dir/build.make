@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raf/Desktop/CS1B/HW02
+CMAKE_SOURCE_DIR = /Users/rafaelszuminski/Desktop/CS1B/HW02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raf/Desktop/CS1B/HW02/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/HW02.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/HW02.dir/flags.make
 
 CMakeFiles/HW02.dir/main.cpp.o: CMakeFiles/HW02.dir/flags.make
 CMakeFiles/HW02.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raf/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HW02.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW02.dir/main.cpp.o -c /home/raf/Desktop/CS1B/HW02/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HW02.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW02.dir/main.cpp.o -c /Users/rafaelszuminski/Desktop/CS1B/HW02/main.cpp
 
 CMakeFiles/HW02.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW02.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raf/Desktop/CS1B/HW02/main.cpp > CMakeFiles/HW02.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rafaelszuminski/Desktop/CS1B/HW02/main.cpp > CMakeFiles/HW02.dir/main.cpp.i
 
 CMakeFiles/HW02.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW02.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/Desktop/CS1B/HW02/main.cpp -o CMakeFiles/HW02.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rafaelszuminski/Desktop/CS1B/HW02/main.cpp -o CMakeFiles/HW02.dir/main.cpp.s
 
 CMakeFiles/HW02.dir/BMI.cpp.o: CMakeFiles/HW02.dir/flags.make
 CMakeFiles/HW02.dir/BMI.cpp.o: ../BMI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raf/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HW02.dir/BMI.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW02.dir/BMI.cpp.o -c /home/raf/Desktop/CS1B/HW02/BMI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HW02.dir/BMI.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW02.dir/BMI.cpp.o -c /Users/rafaelszuminski/Desktop/CS1B/HW02/BMI.cpp
 
 CMakeFiles/HW02.dir/BMI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW02.dir/BMI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raf/Desktop/CS1B/HW02/BMI.cpp > CMakeFiles/HW02.dir/BMI.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rafaelszuminski/Desktop/CS1B/HW02/BMI.cpp > CMakeFiles/HW02.dir/BMI.cpp.i
 
 CMakeFiles/HW02.dir/BMI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW02.dir/BMI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/Desktop/CS1B/HW02/BMI.cpp -o CMakeFiles/HW02.dir/BMI.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rafaelszuminski/Desktop/CS1B/HW02/BMI.cpp -o CMakeFiles/HW02.dir/BMI.cpp.s
 
 CMakeFiles/HW02.dir/User.cpp.o: CMakeFiles/HW02.dir/flags.make
 CMakeFiles/HW02.dir/User.cpp.o: ../User.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raf/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HW02.dir/User.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW02.dir/User.cpp.o -c /home/raf/Desktop/CS1B/HW02/User.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HW02.dir/User.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW02.dir/User.cpp.o -c /Users/rafaelszuminski/Desktop/CS1B/HW02/User.cpp
 
 CMakeFiles/HW02.dir/User.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW02.dir/User.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raf/Desktop/CS1B/HW02/User.cpp > CMakeFiles/HW02.dir/User.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rafaelszuminski/Desktop/CS1B/HW02/User.cpp > CMakeFiles/HW02.dir/User.cpp.i
 
 CMakeFiles/HW02.dir/User.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW02.dir/User.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/Desktop/CS1B/HW02/User.cpp -o CMakeFiles/HW02.dir/User.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rafaelszuminski/Desktop/CS1B/HW02/User.cpp -o CMakeFiles/HW02.dir/User.cpp.s
 
 # Object files for target HW02
 HW02_OBJECTS = \
@@ -110,7 +110,7 @@ HW02: CMakeFiles/HW02.dir/BMI.cpp.o
 HW02: CMakeFiles/HW02.dir/User.cpp.o
 HW02: CMakeFiles/HW02.dir/build.make
 HW02: CMakeFiles/HW02.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/raf/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable HW02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable HW02"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HW02.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/HW02.dir/clean:
 .PHONY : CMakeFiles/HW02.dir/clean
 
 CMakeFiles/HW02.dir/depend:
-	cd /home/raf/Desktop/CS1B/HW02/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raf/Desktop/CS1B/HW02 /home/raf/Desktop/CS1B/HW02 /home/raf/Desktop/CS1B/HW02/cmake-build-debug /home/raf/Desktop/CS1B/HW02/cmake-build-debug /home/raf/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles/HW02.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/rafaelszuminski/Desktop/CS1B/HW02 /Users/rafaelszuminski/Desktop/CS1B/HW02 /Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug /Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug /Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles/HW02.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/HW02.dir/depend
 

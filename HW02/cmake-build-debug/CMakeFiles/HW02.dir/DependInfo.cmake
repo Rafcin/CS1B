@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/raf/Desktop/CS1B/HW02/BMI.cpp" "/home/raf/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles/HW02.dir/BMI.cpp.o"
-  "/home/raf/Desktop/CS1B/HW02/User.cpp" "/home/raf/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles/HW02.dir/User.cpp.o"
-  "/home/raf/Desktop/CS1B/HW02/main.cpp" "/home/raf/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles/HW02.dir/main.cpp.o"
+  "/Users/rafaelszuminski/Desktop/CS1B/HW02/BMI.cpp" "/Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles/HW02.dir/BMI.cpp.o"
+  "/Users/rafaelszuminski/Desktop/CS1B/HW02/User.cpp" "/Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles/HW02.dir/User.cpp.o"
+  "/Users/rafaelszuminski/Desktop/CS1B/HW02/main.cpp" "/Users/rafaelszuminski/Desktop/CS1B/HW02/cmake-build-debug/CMakeFiles/HW02.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
